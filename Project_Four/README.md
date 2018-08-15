@@ -12,19 +12,17 @@ Your piece is going to be on how to create a Reddit post that will get the most 
 
 #### Project Summary
 
-In this project, we will practice two major skills. Collecting data by scraping a website and then building a binary predictor.
-
 There are two components to starting a data science problem: the problem statement, and acquiring the data.
 
-For this article, your problem statement will be: _What characteristics of a post on Reddit are most predictive of the overall engagement on a thread (as measured by number of comments)?_
+For this project, your problem statement will be: _What characteristics of a post on Reddit are most predictive of the overall engagement on a thread (as measured by number of comments)?_
 
-Your method for acquiring the data will be scraping the 'hot' threads as listed on the [Reddit homepage](https://www.reddit.com/). You'll acquire _AT LEAST FOUR_ pieces of information about each thread:
+Your method for acquiring the data will be scraping the 'hot' threads as listed on the [Reddit homepage](https://www.reddit.com/). You'll acquire pieces of information about each thread, e.g.:
 1. The title of the thread
 2. The subreddit that the thread corresponds to
 3. The length of time it has been up on Reddit
 4. The number of comments on the thread
 
-Once you've got the data, you will build a classification model that, using Natural Language Processing and any other relevant features, predicts whether or not a given Reddit post will have above or below the _median_ number of comments.
+Once you've got the data, you will build a classification model that, using Natural Language Processing and any other relevant features, predicts whether or not a given Reddit post will have above or below the _median_ or _75th percentile_ number of comments.
 
 
 ---
